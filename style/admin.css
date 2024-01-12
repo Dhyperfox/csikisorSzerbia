@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    background-color: #fff;
+}
+
+h2, h3 {
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+p {
+    line-height: 1.6em;
+}
+
+
+.topnav {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+
+}
+
+.links {
+	flex: 1;
+	text-align: center;
+}
+.links ul{
+	display: inline-block;
+	list-style-type: none;
+}
+.links ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+a{
+ text-decoration: none;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color: #000;
+	font-size: 22px;
+}
+
+.table {
+	height: 30%;
+    margin: 30px auto;
+    width: 70%;
+	font-size: 18px;
+}
+thead{
+	font-size: 15px;
+	text-align: center;
+}
+td{
+	text-align: center;
+	border: 1px solid #000;
+}
+td:first-child{
+	width: 120px;
+}
+.inputs{
+	padding: 20px;
+	margin: 30px auto;
+	width: 20%;
+}
+input{
+	margin: 20px;
+}
+.message{
+	margin: auto;
+	width: 10%;
+}

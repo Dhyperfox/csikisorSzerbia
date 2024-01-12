@@ -1,0 +1,4 @@
+AuthName "Jelszo vedett terulet!"
+AuthType Basic
+AuthUserFile D:\xampp\htdocs\projekt2020_II\files\.htpasswd
+require valid-user

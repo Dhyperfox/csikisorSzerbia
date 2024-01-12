@@ -1,0 +1,413 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	 scroll-behavior: smooth;
+}
+
+body {
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+padding: 0;
+box-sizing: border-box;
+	
+}
+
+/* Style the top navigation bar */
+.topnav {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+
+}
+
+/* Change color on hover */
+.links {
+	flex: 1;
+	text-align: center;
+}
+.links ul{
+	display: inline-block;
+	list-style-type: none;
+}
+.links ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+a{
+ text-decoration: none;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color: #000;
+	font-size: 22px;
+}
+p{
+	color: #555;
+}
+.header{
+
+}
+.container{
+	max-width: 100%;
+	margin: auto;
+
+}
+
+.row{
+	display: flex;
+	padding: 0 30px;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.col-2{
+	flex-basis: 50%;
+	min-width: 300px;
+}
+.col-2 img{
+	max-width: 100%;
+	padding: 50px 0;
+}
+.col-2 h1{
+	font-size: 50px;
+	line-height: 60px;
+	margin: 25px 0;
+	color: #fff;
+}
+.button{
+	text-align: center;
+	margin: 300px 0 0 45%;
+	padding: 8px 30px;
+	display: inline-block;
+	background: #ff523b;
+	color: #fff;
+	border-radius: 30px;
+	
+}
+.btn{
+	color: #fff;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+.header{
+	height: 1000px;
+	background-image: url(../images/beer-background1.jpg);
+}
+.header .row{
+	margin-top: 70px;
+}
+.categories{
+	margin: 70px;
+
+}
+
+.col-3{
+	flex-basis: 30%;
+	min-width: 250px;
+	margin-bottom: 30px;
+
+}
+.col-3 img{
+	border: 3px solid #000;
+}
+.col-4{
+	
+	background-color: #fff;
+	text-align: center;
+	flex-basis: 30%;
+	min-width: 250px;
+}
+.col-4 img{
+	border: 3px solid #000;
+	width: 50%;
+}
+.col-4 h2{
+	text-align: center;
+	color: #000;
+	font-size: 22px;
+}
+.contact {
+  max-width: 768px;
+  margin: 60px auto;
+  position: static;
+}
+.txt1 {
+    width: 50%;
+    font-size: 22px;
+    text-align: justify;
+    display: inline-block;
+}
+.text2 {
+	flex: 1;
+	text-align: center;
+}
+.txt2 ul{
+	display: inline-block;
+	list-style-type: none;
+}
+.txt2 ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+.txt2 img{
+	width: 400px;
+}
+
+button {
+  overflow: visible;
+}
+
+ button, select {
+  text-transform: none;
+}
+
+ button, input, select, textarea {
+  color: #5A5A5A;
+  font: inherit;
+  margin: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+textarea {
+  overflow: auto;
+}
+
+#contact {
+  max-width: 768px;
+  margin: 60px auto;
+  position: static;
+}
+
+form {
+  padding: 37.5px;
+  margin: 50px 0;
+}
+
+#contact h1 {
+  color: #474544;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+
+.email {
+	float: right;
+	width: 45%;
+}
+
+input[type='text'], [type='email'], select, textarea {
+	background: none;
+    border: none;
+	border-bottom: solid 2px #474544;
+	color: #474544;
+	font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+	margin: 0 0 30px 0;
+	padding: 0 0 14px 0;
+    text-transform: uppercase;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+
+}
+
+input[type='text']:focus, [type='email']:focus, textarea:focus {
+	outline: none;
+	padding: 0 0 14px 0;
+}
+
+.message {
+	float: none;
+}
+
+.name {
+	float: left;
+	width: 45%;
+}
+
+select {
+  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+
+
+.subject {
+  width: 100%;
+}
+
+.telephone {
+  width: 100%;
+}
+
+textarea {
+	line-height: 150%;
+	height: 150px;
+	resize: none;
+    width: 100%;
+}
+
+::-webkit-input-placeholder {
+	color: #474544;
+}
+
+
+.submit{
+	text-align: center;
+}
+#form_button {
+  background: none;
+  border: solid 2px #474544;
+  color: #474544;
+  cursor: pointer;
+  display: inline-block;
+  
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+
+}
+
+#form_button:hover {
+  background: #474544;
+  color: #F2F3EB;
+}
+
+
+/* Style the footer */
+
+
+.footer-container{
+	background-color: #292c2f;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+ 
+	padding: 55px 50px;
+	margin-top: 50px;
+}
+ 
+ .footer-left,.footer-center,.footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+ .footer-left{
+	width: 40%;
+}
+ 
+.footer-container h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+ 
+.footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+ 
+.footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+ 
+.footer-center{
+	width: 35%;
+}
+ 
+.footer-center i{
+	background-color:  #333;
+	color: #fff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 30%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+ 
+ i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+ 
+.footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+ 
+.footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+ 
+.footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+ 
+.footer-right{
+	width: 20%;
+}
+  
+.footer-icons{
+	margin-top: 25px;
+}
+ 
+.footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+ 
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+ 
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+ 
+ 
+@media (max-width: 880px) {
+ 
+	.footer-container{
+		font: bold 14px sans-serif;
+	
+	}
+ 
+	.footer-left, .footer-center, .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+ 
+	.footer-center i{
+		margin-left: 0;
+	}
+}
